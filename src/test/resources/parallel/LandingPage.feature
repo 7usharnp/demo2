@@ -30,13 +30,11 @@ And enter my valid email "tushar@cybage.com"
 And click on subscribe button
 Then i should get validation msg 
 
-
-
-
 Scenario Outline: Social media icons working check
 When i scroll down to subscribe section 
 And i click on following <social_media_icon> 
 Then i should be redirected to social media platform
+
 
 Examples:
 |social_media_icon |

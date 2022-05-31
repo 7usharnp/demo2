@@ -7,3 +7,5 @@ And user clicks on burger Menu
 And click analyst speak from menulist
 Then user should land on analyst speak page
 And title of the  page should be "Analyst Speak"
+
+

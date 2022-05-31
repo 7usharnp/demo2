@@ -40,6 +40,10 @@ public class FooterPageSteps {
 //	   Assert.assertEquals(awardPageTitle, expected);
 //	}
 //	
+	
+	
+	
+	
 	@When("user clicks on {string} in footer")
 	public void user_clicks_on_in_footer(String link) {
 		if(link.equals("About Us")) {

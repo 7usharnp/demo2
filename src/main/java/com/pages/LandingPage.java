@@ -32,6 +32,11 @@ public class LandingPage {
 	private By burgerMenu_AnalystSpeak = By.xpath("//li[@class='click-me']//a[normalize-space()='Analyst Speak']");
 	private By burgerMenu_DecisionMine = By.xpath("//li[contains(@class,'first')]//a[contains(text(),'DecisionMines™')]");
 	private By burgerMenu_Industries = By.xpath("(//a[contains(text(),'Industries')])[2] ");
+	private By bergerMenu_Company = By.xpath("(//a[contains(text(),'Company')])[2]");
+	private By bergerMenu_CybageTimes =By.xpath("//li[@class='click-me']//a[normalize-space()='Cybage Times']");
+	private By bergerMenu_Newsroom =By.xpath("//li[@class='click-me']//a[normalize-space()='Newsroom']");
+
+	
 	public LandingPage(WebDriver driver) {
 		this.driver = driver;
 	}
@@ -166,6 +171,37 @@ public class LandingPage {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(burgerMenu_Industries));
 		driver.findElement(burgerMenu_Industries).click();
 		return new TravelAndHospitalityPage(driver);
+	}
+
+	public CompanyPage clickOnCompany() {
+		WebDriverWait wait = new WebDriverWait(driver,30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(bergerMenu_Company));
+		driver.findElement(bergerMenu_Company).click();
+		return new CompanyPage(driver);
+		
+	}
+
+	public CybageTimesPage clickOnCybageTimes() {
+		WebDriverWait wait = new WebDriverWait(driver,30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(bergerMenu_CybageTimes));
+		driver.findElement(bergerMenu_CybageTimes).click();
+		return new CybageTimesPage(driver);
+		
+	}
+
+	public CybageTimesPage clickOnNewsroom() {
+		WebDriverWait wait = new WebDriverWait(driver,30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(bergerMenu_Newsroom));
+		driver.findElement(bergerMenu_Newsroom).click();
+		return new CybageTimesPage(driver);
+		
+	}
+
+	public CybageTimesPage clickOnCareerInBurgerMenu() {
+		WebDriverWait wait = new WebDriverWait(driver,30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(bergerMenu_Newsroom));
+		driver.findElement(bergerMenu_Newsroom).click();
+		return new CybageTimesPage(driver);
 	}
 
 	

@@ -146,4 +146,25 @@ public class LandingPageSteps {
 	 public void user_clicks_on_industry_section_to_click_on_travel_and_hospitality() {
 	         landingPage.clickOnIndustriesForTravelAndHospitality();
 	 }
+	 
+	 @Given("user clicks on Company")
+	 public void user_clicks_on_company() {
+	     landingPage.clickOnCompany();
+	 }
+	 
+	 @Given("user clicks on Cybage Times")
+	 public void user_clicks_on_cybage_times() {
+	  landingPage.clickOnCybageTimes();
+	 }
+	 
+	 @Given("user clicks on Newsroom")
+	 public void user_clicks_on_newsroom() {
+	    landingPage.clickOnNewsroom();
+	 }
+	 
+	 @Given("user clicks on Career")
+	 public void user_clicks_on_career() {
+	  //  landingPage.clickOnCareerInBurgerMenu();
+	 }
+
 }

@@ -12,15 +12,18 @@ import io.cucumber.testng.CucumberOptions;
 				}, 
 		monochrome = true,
 		glue = { "parallel" },
-		features = {  "src/test/resources/parallel/LandingPage.feature", 
+		features = { 
+				"src/test/resources/parallel/LandingPage.feature", 
 				"src/test/resources/parallel/SearchPage.feature",
-				"src/test/resources/parallel/ContactUs.feature",
 				"src/test/resources/parallel/AnalystSpeak.feature",
 				"src/test/resources/parallel/Footer.feature",
 				"src/test/resources/parallel/DecisionMines.feature",
-				"src/test/resources/parallel/MediaAndAdvertising.feature"
-				//"src/test/resources/parallel/"
-				
+				"src/test/resources/parallel/MediaAndAdvertising.feature",
+				"src/test/resources/parallel/Company.feature",
+				"src/test/resources/parallel/CybageTimes.feature",
+				"src/test/resources/parallel/HiTech.feature",
+				"src/test/resources/parallel/Newsroom.feature",
+				"src/test/resources/parallel/TravelAndHospitality.feature"
 				}
 )
 
