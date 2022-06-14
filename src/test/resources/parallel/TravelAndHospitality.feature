@@ -7,8 +7,8 @@ And user clicks on industry section to click on TravelAndHospitality
 And user clicks on Travel and Hospitality
 And user clicks on overview under Travel and Hospitality vertical
 
-#Scenario: Check Travel and Hospitality overview page title
-#Then user should be redirected to "Travel and Hospitality- IT Consulting and Technology Solutions | Cybage" of travel and hospitality section
+Scenario: Check Travel and Hospitality overview page title
+Then user should be redirected to "Travel and Hospitality- IT Consulting and Technology Solutions | Cybage" of travel and hospitality section
 
 Scenario: check Travel and hospitality subpages titles one by one
 And user click on Hospitality card

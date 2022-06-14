@@ -22,22 +22,6 @@ Examples:
 
 
 
-#|Supply Chain & Logistics||
-#|Healthcare & life science ||
-#|Digital Product Engineer ||
-#|Architecutral services |  |
-#|Cloud | |
-#|Enterprise Mobiliity ||
-#|Bi||
-#|Martech ||
-#|ECM| |
-#|CRM | |
-#|Alliances ||
-#|Testing & QA||
-#|Support Services||
-#|Life at Cybage||
-#
-#
 
 
 

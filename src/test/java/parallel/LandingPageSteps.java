@@ -167,4 +167,8 @@ public class LandingPageSteps {
 	  //  landingPage.clickOnCareerInBurgerMenu();
 	 }
 
+	 @Given("user clicks on burger Menu inside header section")
+	 public void user_clicks_on_burger_menu_inside_header_section() {
+	    landingPage.clickOnBurgerMenuPage();
+	 }
 }

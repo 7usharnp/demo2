@@ -204,5 +204,11 @@ public class LandingPage {
 		return new CybageTimesPage(driver);
 	}
 
+	public BurgerMenuPage clickOnBurgerMenuPage() {
+		driver.findElement(burgerMenu).click();
+		return new BurgerMenuPage(driver);
+		
+	}
+
 	
 }
